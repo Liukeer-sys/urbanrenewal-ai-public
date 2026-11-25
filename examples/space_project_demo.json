@@ -1,0 +1,72 @@
+{
+  "city": "上海",
+  "background": "假设一处旧工业园区拟分期腾退并活化。",
+  "renewal_goal": "保留工业风貌，引入创意办公、社区零售与公共文化活动。",
+  "planning_constraints": ["保留具有工业风貌的主体空间", "室外广场和绿地保持公共可达"],
+  "status": "confirmed",
+  "areas": {
+    "site_area_sqm": 10000,
+    "existing_building_area_sqm": 8000,
+    "existing_footprint_sqm": 4000,
+    "demolished_building_area_sqm": 2000,
+    "demolished_footprint_sqm": 1000,
+    "new_building_area_sqm": 4000,
+    "new_footprint_sqm": 2000
+  },
+  "units": [
+    {
+      "unit_id": "U001",
+      "space_type": "indoor",
+      "construction_method": "renovate",
+      "function": "办公与工作室",
+      "area_sqm": 3500,
+      "operating_method": "出租",
+      "revenue_sources": ["租金"]
+    },
+    {
+      "unit_id": "U002",
+      "space_type": "indoor",
+      "construction_method": "renovate",
+      "function": "展览",
+      "area_sqm": 2500,
+      "operating_method": "自营",
+      "revenue_sources": ["门票"]
+    },
+    {
+      "unit_id": "U003",
+      "space_type": "indoor",
+      "construction_method": "new_build",
+      "function": "零售",
+      "area_sqm": 2200,
+      "operating_method": "出租",
+      "revenue_sources": ["租金"]
+    },
+    {
+      "unit_id": "U004",
+      "space_type": "indoor",
+      "construction_method": "new_build",
+      "function": "活动与演艺",
+      "area_sqm": 1800,
+      "operating_method": "自营",
+      "revenue_sources": ["门票", "场租"]
+    },
+    {
+      "unit_id": "U005",
+      "space_type": "outdoor",
+      "construction_method": "outdoor_build",
+      "function": "广场",
+      "area_sqm": 2000,
+      "operating_method": "公益",
+      "revenue_sources": ["无直接收入"]
+    },
+    {
+      "unit_id": "U006",
+      "space_type": "outdoor",
+      "construction_method": "outdoor_build",
+      "function": "绿地",
+      "area_sqm": 3000,
+      "operating_method": "委托维护",
+      "revenue_sources": ["无直接收入"]
+    }
+  ]
+}

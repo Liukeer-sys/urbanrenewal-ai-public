@@ -1,0 +1,47 @@
+{
+  "conservative": {
+    "demolition_cost_per_sqm": 220,
+    "discount_rate": 0.1,
+    "parameter_evidence": {
+      "assumption_set": {"source": "演示假设", "evidence": "用于验证计算，未经市场核验", "confirmed_by_user": false}
+    },
+    "units": {
+      "U001": {"capex_per_sqm": 2650, "annual_opex_per_sqm": 95, "revenue": {"租金": {"leasable_area_sqm": 2800, "avg_rent_per_sqm_month": 70, "occupancy_rate": 0.75}}},
+      "U002": {"capex_per_sqm": 3100, "annual_opex_per_sqm": 290, "revenue": {"门票": {"annual_visitors": 32000, "avg_ticket_price": 48}}},
+      "U003": {"capex_per_sqm": 3800, "annual_opex_per_sqm": 90, "revenue": {"租金": {"leasable_area_sqm": 1750, "avg_rent_per_sqm_month": 92, "occupancy_rate": 0.8}}},
+      "U004": {"capex_per_sqm": 4450, "annual_opex_per_sqm": 240, "revenue": {"门票": {"annual_visitors": 19000, "avg_ticket_price": 42}, "场租": {"annual_venue_rentals": 18, "venue_rental_per_event": 14500}}},
+      "U005": {"capex_per_sqm": 490, "annual_opex_per_sqm": 50, "revenue": {}},
+      "U006": {"capex_per_sqm": 220, "annual_opex_per_sqm": 30, "revenue": {}}
+    }
+  },
+  "base": {
+    "demolition_cost_per_sqm": 190,
+    "discount_rate": 0.08,
+    "parameter_evidence": {
+      "assumption_set": {"source": "演示假设", "evidence": "用于验证计算，未经市场核验", "confirmed_by_user": false}
+    },
+    "units": {
+      "U001": {"capex_per_sqm": 2400, "annual_opex_per_sqm": 85, "revenue": {"租金": {"leasable_area_sqm": 2800, "avg_rent_per_sqm_month": 75, "occupancy_rate": 0.86}}},
+      "U002": {"capex_per_sqm": 2800, "annual_opex_per_sqm": 260, "revenue": {"门票": {"annual_visitors": 42000, "avg_ticket_price": 52}}},
+      "U003": {"capex_per_sqm": 3500, "annual_opex_per_sqm": 90, "revenue": {"租金": {"leasable_area_sqm": 1750, "avg_rent_per_sqm_month": 105, "occupancy_rate": 0.88}}},
+      "U004": {"capex_per_sqm": 4200, "annual_opex_per_sqm": 220, "revenue": {"门票": {"annual_visitors": 26000, "avg_ticket_price": 46}, "场租": {"annual_venue_rentals": 24, "venue_rental_per_event": 16000}}},
+      "U005": {"capex_per_sqm": 450, "annual_opex_per_sqm": 45, "revenue": {}},
+      "U006": {"capex_per_sqm": 220, "annual_opex_per_sqm": 30, "revenue": {}}
+    }
+  },
+  "optimistic": {
+    "demolition_cost_per_sqm": 180,
+    "discount_rate": 0.07,
+    "parameter_evidence": {
+      "assumption_set": {"source": "演示假设", "evidence": "用于验证计算，未经市场核验", "confirmed_by_user": false}
+    },
+    "units": {
+      "U001": {"capex_per_sqm": 2300, "annual_opex_per_sqm": 80, "revenue": {"租金": {"leasable_area_sqm": 2800, "avg_rent_per_sqm_month": 80, "occupancy_rate": 0.92}}},
+      "U002": {"capex_per_sqm": 2700, "annual_opex_per_sqm": 275, "revenue": {"门票": {"annual_visitors": 49000, "avg_ticket_price": 54}}},
+      "U003": {"capex_per_sqm": 3450, "annual_opex_per_sqm": 90, "revenue": {"租金": {"leasable_area_sqm": 1750, "avg_rent_per_sqm_month": 115, "occupancy_rate": 0.93}}},
+      "U004": {"capex_per_sqm": 4100, "annual_opex_per_sqm": 230, "revenue": {"门票": {"annual_visitors": 31000, "avg_ticket_price": 48}, "场租": {"annual_venue_rentals": 29, "venue_rental_per_event": 17500}}},
+      "U005": {"capex_per_sqm": 440, "annual_opex_per_sqm": 45, "revenue": {}},
+      "U006": {"capex_per_sqm": 220, "annual_opex_per_sqm": 30, "revenue": {}}
+    }
+  }
+}

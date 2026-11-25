@@ -1,0 +1,22 @@
+[
+  {
+    "tool": "search_cases",
+    "status": "ok",
+    "summary": "检索并向模型返回 5 条审核通过的公开案例与政策片段。"
+  },
+  {
+    "tool": "validate_space_plan",
+    "status": "ok",
+    "summary": "真实模型生成的 8 个空间单元通过空间校验。"
+  },
+  {
+    "tool": "search_benchmarks",
+    "status": "ok",
+    "summary": "向模型返回 4 条审核通过的公开经营资料。缺少依据的字段由验证流程补录为 135 项演示假设。"
+  },
+  {
+    "tool": "calculate_finance",
+    "status": "ok",
+    "summary": "Python 对同一份确认后的空间方案计算保守、基准、乐观三情景，结果回传给模型。"
+  }
+]
